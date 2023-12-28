@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { answerColors, victorinaData } from "./data";
-import victorinaImage from "./assets/python.jpg";
+import victorinaImage from "./assets/test-bg.jpeg";
 
 function App() {
   const [isStarted, setIsStarted] = useState(false);
@@ -32,7 +32,7 @@ function App() {
       <div className="min-h-screen flex flex-col items-center justify-center text-center gap-[240px]">
         <div className="font-extrabold">
           <span className="text-[24px]">Викторина по теме:</span>
-          <h1 className="text-[32px]">Python и Django</h1>
+          <h1 className="text-[32px]">Электроника</h1>
         </div>
         <button
           onClick={() => setIsStarted(true)}

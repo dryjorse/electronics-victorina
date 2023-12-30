@@ -115,7 +115,6 @@ function App() {
             <span>{answer}</span>
           </button>
         ))}
-        {/* <div className="h-[80px] bg-[#121212]"></div> */}
       </div>
     );
 }
